@@ -1,0 +1,61 @@
+.projects-page {
+    animation: fadeIn 1s;
+}
+
+.overlay-text-projects {
+    position: relative;
+    top: -1200px;
+    text-align: center;
+    width: 1300px;
+    background-color: transparent;
+    padding-left: 75px;
+    padding-right: 0px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.heading-projects {
+    color: rgb( 191,164,141 );
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size: 35px;
+    font-weight: 300;
+    font-family: 'Open Sans';
+    margin-left: 595px;
+
+}
+
+.text-projects {
+    margin-top: 110px;
+    color: white;
+    font-size: 19px;
+    font-weight: 400; 
+    max-width: 600px;
+    letter-spacing: 0.6px;
+}
+
+.text-projects2 {
+    margin-top: -1148px;
+    margin-left: 50px;
+    color: rgb(0, 0, 0);
+    font-size: 19px;
+    font-weight: 300; 
+    max-width: 600px;
+    letter-spacing: 0.6px;
+}
+
+
+.overlay-bg-projects {
+    position: relative;
+    top: -250px;
+    left: 950px;
+    text-align: left;
+    font-family: 'Open Sans';
+    background-color: rgb( 191,164,141 );
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    width: 955px;
+    height: 900px;
+  }

@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans';
+    position: relative;
+}
+
+body.fade-out {
+    opacity: 0;
+}
+
+.overlay-text-explore {
+    position: absolute;
+    left: 50px;
+    text-align: left;
+    font-family: 'Open Sans';
+    background-color: #ffe8ed;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    width: 700px;
+}
+
+
+.name-explore {
+    color: black;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.bio-explore {
+    color: black;
+    font-size: 15px;
+    font-weight: 300; 
+    max-width: 600px;
+    letter-spacing: 0.6px;
+}
+
+
+.overlay-contact-explore {
+    position: relative;
+    left: 1200px;
+    top: 450px;
+    text-align: left;
+    font-family: 'Open Sans';
+    background-color: #ffe8ed;
+    padding-left: 75px;
+    padding-right: 0px;
+    padding-top: 70px;
+    padding-bottom: 140px;
+    width: 705px;
+}
+
+.contact-explore {
+    color: black;
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size: 25px;
+    font-weight: 300;
+    min-width: 400px;
+}
+
+.contact-detail-explore {
+    display: inline-block;
+    color: black;
+    font-size: 15px;
+    font-weight: 300; 
+    letter-spacing: 0.6px;
+}
+
+.social-icon {
+    font-size: 35px;
+    color: rgb(209, 93, 93);
+    margin-right: 30px;
+    transition: color 0.3s ease;
+    vertical-align: middle;
+}
+
+.social-icon:hover {
+    color: rgb(122, 23, 23);
+}
+
+.background-video-explore {
+    object-fit: cover;
+    margin-left: 700px;
+    margin-top: 300px;
+    margin-bottom: 350px;
+    margin-right: 350px;
+    width: 550px;
+    height: 450px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: fadeIn 6s;
+}
+
+.explore-page {
+    animation: fadeIn 1s;
+}

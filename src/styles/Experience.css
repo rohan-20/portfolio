@@ -1,0 +1,84 @@
+.experience-page {
+    animation: fadeIn 1s;
+}
+
+.overlay-text-experience {
+    position: relative;
+    top: -800px;
+    text-align: left;
+    width: 1300px;
+    background-color: rgb( 191,164,141 );
+    padding-left: 75px;
+    padding-right: 0px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.overlay-text-experience.animate {
+    animation: slideIn 1s;
+}
+
+.heading-experience {
+    color: rgb(93, 56, 23);
+    letter-spacing: 3px;
+    word-spacing: 5px;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.text-experience {
+    color: rgb(93, 56, 23);
+    font-size: 19px;
+    font-weight: 300; 
+    max-width: 600px;
+    letter-spacing: 0.6px;
+}
+
+.overlay-text2-experience {
+    position: relative;
+    left: 100px;
+    top: -700px;
+    text-align: left;
+    background-color: #ffe79d;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 600px;
+}
+
+.overlay-text3-experience {
+    position: relative;
+    left: 100px;
+    top: -675px;
+    text-align: left;
+    background-color: #ffe79d;
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 1000px;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.overlay-bg-experience {
+    position: relative;
+    top: -100px;
+    text-align: left;
+    font-family: 'Open Sans';
+    background-color: rgb(243, 237, 233);
+    padding-left: 75px;
+    padding-right: 75px;
+    padding-top: 80px;
+    padding-bottom: 40px;
+    width: 1905px;
+    height: 800px;
+  }

@@ -1,0 +1,58 @@
+.welcome-container {
+    position: fixed;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .background-video {
+    object-fit: cover;
+    width: 100vw;
+    height: 80vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    animation: fadeIn 1s;
+  }
+  
+  .overlay-text {
+    position: fixed;
+    top: 15vh;
+    left: 20vw;
+    text-align: left;
+    font-family: 'Open Sans';
+    animation: fadeIn 1s;
+  }
+
+  @keyframes fadeIn {
+    0% {opacity: 0; }
+    100% {opacity: 1; }
+  }
+  
+  .name {
+    color: white;
+    font-size: 70px;
+    font-weight: 600;
+  }
+
+  .bio {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;  
+  }
+
+  .button {
+    background-color: white;
+    color: rgb(82, 74, 74);
+    padding: 10px 50px;
+    font-size: 11px;
+    font-weight: 100;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+    animation: fadeIn 1s;
+  }
+
+  .button:hover {
+    color: white;
+    background-color: transparent;
+  }
