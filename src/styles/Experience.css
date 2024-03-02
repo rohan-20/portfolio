@@ -4,7 +4,7 @@
 
 .overlay-text-experience {
     position: relative;
-    top: -800px;
+    top: -2500px;
     text-align: left;
     width: 1300px;
     background-color: rgb( 191,164,141 );
@@ -23,13 +23,13 @@
     letter-spacing: 3px;
     word-spacing: 5px;
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 350;
 }
 
 .text-experience {
     color: rgb(93, 56, 23);
     font-size: 19px;
-    font-weight: 300; 
+    font-weight: 350; 
     max-width: 600px;
     letter-spacing: 0.6px;
 }
@@ -37,7 +37,7 @@
 .overlay-text2-experience {
     position: relative;
     left: 100px;
-    top: -700px;
+    top: -2400px;
     text-align: left;
     background-color: #ffe79d;
     padding-left: 75px;
@@ -50,7 +50,7 @@
 .overlay-text3-experience {
     position: relative;
     left: 100px;
-    top: -675px;
+    top: -2375px;
     text-align: left;
     background-color: #ffe79d;
     padding-left: 75px;
@@ -71,9 +71,8 @@
 
 .overlay-bg-experience {
     position: relative;
-    top: -100px;
+    top: -1800px;
     text-align: left;
-    font-family: 'Open Sans';
     background-color: rgb(243, 237, 233);
     padding-left: 75px;
     padding-right: 75px;

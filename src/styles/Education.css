@@ -1,10 +1,9 @@
 .overlay-text-education {
     position: relative;
     transform: translateX(-50%);
-    top: -1000px;
+    top: -1500px;
     left: 1000px;
     text-align: center;
-    font-family: 'Open Sans';
     background-color: #ffe79d;
     padding-left: 75px;
     padding-right: 75px;
@@ -20,13 +19,13 @@
     letter-spacing: 3px;
     word-spacing: 5px;
     font-size: 25px;
-    font-weight: 300;
+    font-weight: 35 0;
 }
 
 .text-education {
     color: rgb(93, 56, 23);
     font-size: 19px;
-    font-weight: 300;
+    font-weight: 350;
     letter-spacing: 0.6px;
 }
 
@@ -68,9 +67,8 @@
 .overlay-bg-education {
     position: relative;
     left: 100px;
-    top: 600px;
+    top: -900px;
     text-align: center;
-    font-family: 'Open Sans';
     background-color: rgb( 191,164,141 );
     padding-left: 75px;
     padding-right: 75px;
