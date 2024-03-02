@@ -1,7 +1,7 @@
 .overlay-text-education {
     position: relative;
     transform: translateX(-50%);
-    top: 0px;
+    top: -1000px;
     left: 1000px;
     text-align: center;
     font-family: 'Open Sans';

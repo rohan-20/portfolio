@@ -14,6 +14,7 @@ const Explore = () => {
   return (
     <div>
       <Navbar />
+      <div className='everything-explore'>
       <div  className='explore-page'>
       <div>
         <video autoPlay loop muted className='background-video-explore'>
@@ -51,6 +52,7 @@ const Explore = () => {
       <Experience />
       <Projects />
       </div>
+    </div>
     </div>
   )
 }

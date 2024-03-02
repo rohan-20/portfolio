@@ -5,16 +5,19 @@
 }
 
 body {
-    font-family:'Times New Roman', Times, serif;
+    font-family: 'Open Sans';
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 body.fade-out {
     opacity: 0;
 }
 
+
 .overlay-text-explore {
-    position: absolute;
+    position: relative;
     left: 50px;
     text-align: left;
     font-family: 'Open Sans';
@@ -24,6 +27,7 @@ body.fade-out {
     padding-top: 150px;
     padding-bottom: 40px;
     width: 700px;
+    top: -1104px;
 }
 
 
@@ -47,7 +51,7 @@ body.fade-out {
 .overlay-contact-explore {
     position: relative;
     left: 1200px;
-    top: 400px;
+    top: -1050px;
     text-align: left;
     font-family: 'Open Sans';
     background-color: #ffe8ed;
@@ -95,8 +99,8 @@ body.fade-out {
     margin-right: 350px;
     width: 550px;
     height: 450px;
-    position: absolute;
-    top: 0;
+    position: relative;
+    top: -100px;
     left: 0;
     animation: fadeIn 6s;
 }
