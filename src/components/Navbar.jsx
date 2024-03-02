@@ -9,7 +9,7 @@ const Navbar = () => {
     <div>
       <nav>
         <Link to='/' className='name-navbar'>
-          ROHAN SHARMA
+          ROHAN SHARMA HEHE
         </Link>
         <ul>
           <li className={location.pathname === '/explore' ? 'active' : ''}>
