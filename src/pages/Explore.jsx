@@ -17,7 +17,7 @@ const Explore = () => {
       <div  className='explore-page'>
       <div>
         <video autoPlay loop muted className='background-video-explore'>
-          <source src='explore-background-video.mp4' type='video/mp4' />
+          <source src='/explore-background-video.mp4' type='video/mp4' />
           Your browser does not support this video tag.
         </video>
       </div>

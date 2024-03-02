@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'Open Sans';
+    font-family:'Times New Roman', Times, serif;
     position: relative;
 }
 
@@ -47,7 +47,7 @@ body.fade-out {
 .overlay-contact-explore {
     position: relative;
     left: 1200px;
-    top: 450px;
+    top: 400px;
     text-align: left;
     font-family: 'Open Sans';
     background-color: #ffe8ed;
